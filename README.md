@@ -15,7 +15,7 @@ This file results in the following:
 
 
 ### On the TidyDataSet.csv
-As its filename suggests, this file contains the tidy data obtained from running run_analysis.R file. It's worth to note that one can use the View tables which was automatically opened in R.
+As its filename suggests, this file contains the tidy data obtained from running run_analysis.R file. It's worth to note that run_analysis.R automatically opens in R a table similar to this file.
 
 ### On the Codebook.md
 This file contains all the variables and summaries calculated, and relavant information.
@@ -23,7 +23,7 @@ This file contains all the variables and summaries calculated, and relavant info
 
 ## License:
 
-From the data source, we reference here the use of its dataset in publications:
+As per the data source, we reference here the use of its dataset in publications:
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
