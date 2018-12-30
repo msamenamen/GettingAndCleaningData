@@ -10,6 +10,7 @@ The link also contains features_info.txt which includes the detaled description 
 The final output is the **TidyDataSet.csv** file which contains the tidy data obtained from running *run_analysis.R* file. It's worth to note that *run_analysis.R* automatically opens in R a table similar to this file.
 
 ### Dataset Transformation
+*run_analysis.R* file assumes that the directory is set where the downloaded data source zip folder is.
 All the tasks required are performed as discussed below.
 
 1. Merges the training and the test sets to create one data set.
