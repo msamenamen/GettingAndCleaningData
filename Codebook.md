@@ -7,6 +7,8 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 The link also contains features_info.txt which includes the detaled description of the original dataset.
 
+The final output is the **TidyDataSet.csv** file which contains the tidy data obtained from running *run_analysis.R* file. It's worth to note that *run_analysis.R* automatically opens in R a table similar to this file.
+
 ### Dataset Transformation
 All the tasks required are performed as discussed below.
 
