@@ -7,22 +7,25 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 The link also contains features_info.txt which includes the detaled description of the original dataset.
 
+### Dataset Transformation
+All the tasks required are performed as discussed below.
+
 1. Merges the training and the test sets to create one data set.
-  - One data set is named "OneData".
+      - One data set is named "OneData".
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
-  - This is performed by the grep command which is stored in "subdataFeaturesNames".
+      - This is performed by the grep command which is stored in "subdataFeaturesNames".
 3. Uses descriptive activity names to name the activities in the data set.
-  - This is performed after merging necessary data. This is achieved by using the names() command.
+      - This is performed after merging necessary data. This is achieved by using the names() command.
 4. Appropriately labels the data set with descriptive variable names. Using the names() and gsub() commands, 
-  - Prefix t is replaced with complete word time
-  - Prefix f is replaced with complete word frequency
-  - Acc is replaced with complete word Accelerometer
-  - Gyro is replaced with complete word Gyroscope
-  - Mag is replaced with complete word Magnitude
-  - BodyBody is corrected with word Body
+      - Prefix t is replaced with complete word time
+      - Prefix f is replaced with complete word frequency
+      - Acc is replaced with complete word Accelerometer
+      - Gyro is replaced with complete word Gyroscope
+      - Mag is replaced with complete word Magnitude
+      - BodyBody is corrected with word Body
   
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-  - This is achieved by using the dplyr package which allows the use of summarise_all(funs(mean)) command.
+     - This is achieved by using the dplyr package which allows the use of summarise_all(funs(mean)) command.
   
 License:
 ========
